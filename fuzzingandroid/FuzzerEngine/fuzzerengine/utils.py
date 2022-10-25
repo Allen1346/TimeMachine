@@ -1,26 +1,4 @@
 #!/usr/bin/python
-import state_graph
-
-
-class EventSequences:
-    # the event sequences leading a state to another
-    dict = {'edge_id': 'event_sequence'}
-
-    def __init__(self, length, content):
-
-        self.length = length
-        self.content = content
-
-    # storing the shortest eventSequences leading a state transition
-    def store_event_sequence(self, edge_id, events):
-        if EventSequences.dict.get(edge_id, None) is None:
-            EventSequences.dict[edge_id] = EventSequences(len(events), ''.join(events))
-
-        else:
-            if (EventSequences.dict.get(edge_id).length > len(events)):
-                EventSequences.dict[edge_id] = EventSequences(len(events), ''.join(events))
-
-
 class K_Path_Traveller:
 
     def __init__(self):
@@ -64,25 +42,3 @@ class K_Path_Traveller:
             for node in p:
                 road = road + node.uid + "-->"
             print "path: " + road
-
-
-if __name__ == '__main__':
-    state_graph = state_graph.StateGraph()
-    state_graph.add_node('1')
-    state_graph.add_node('2')
-    state_graph.add_node('3')
-    state_graph.add_node('4')
-
-    state_graph.add_edge('1', '2')
-    state_graph.add_edge('2', '1')
-    state_graph.add_edge('2', '4')
-    state_graph.add_edge('4', '1')
-
-    node = state_graph.retrieve('4')
-    #  print node
-
-    traveller = K_Path_Traveller()
-    traveller.compute_fitness_k_neighbors(state_graph, node, 1)
-
-
-

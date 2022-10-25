@@ -59,28 +59,3 @@ def compute_current_coverage(app_class_files_path):
 
 def pull_coverage_files(restore_count, app_package_name, app_class_files_path, avd_serial):
     get_jacoco_coverage(restore_count, app_package_name, app_class_files_path, avd_serial)
-
-# def record_coverage():
-#     start_time = time.time()
-#     file_path='../../output/coverage_time.csv'
-#
-#     #clear the old data
-#     open(file_path,'w').close()
-#
-#     while True:
-#         with open(file_path, 'a') as coverage_file:
-#             t = time.time() - start_time
-#
-#             # compute_coverage()
-#             # coverage = read_coverage()
-#             # TODO, record_coverage() is not used in the project, so it is okay for now without giving proper parameters.
-#             compute_coverage_jacoco()
-#             coverage = read_coverage_jacoco()
-#
-#             line = str(round(t,1)) + "," + str(coverage) + "\n"
-#             coverage_file.writelines(line)
-#             coverage_file.flush()
-#             coverage_file.close()
-#
-#         time.sleep(120)
-

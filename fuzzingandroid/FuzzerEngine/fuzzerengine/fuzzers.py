@@ -25,7 +25,7 @@ class MonkeyController:
         while True:
 
             line = p.stdout.readline()
-            #print("Monkey event " + line)
+            print("Monkey event " + line)
 
             #if it is a monkey event (not random logs) then add it to the seq
             if "Sending" in line:
@@ -36,7 +36,11 @@ class MonkeyController:
             if not line.lstrip().startswith("/"):
                 self.output.append(line)
 
-            if line == '' and p.poll() != None:
+            str = p.poll()
+            if line == '' and str != None:
+                print "break monkey due to line == '' and p.poll() != None"
+                print "line:"+line
+                print str
                 print('--monkey watcher is terminated!')
                 break
 
@@ -44,19 +48,3 @@ class MonkeyController:
     def kill_monkey(self):
         print("--killing monkey")
         os.system("adb -s " + RunParameters.AVD_SERIAL +" shell pkill -f monkey")
-
-    def reset_event_seq(self):
-        print("Reset seq")
-        self.event_seq_to_transition = []
-
-    def get_event_seq(self):
-        print(len(self.event_seq_to_transition))
-        return self.event_seq_to_transition
-
-#test cases
-if __name__=='__main__':
-
-    mc = MonkeyController()
-    mc.kill_monkey()
-
-

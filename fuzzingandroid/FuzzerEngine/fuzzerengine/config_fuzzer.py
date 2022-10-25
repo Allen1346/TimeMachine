@@ -10,4 +10,5 @@ class RunParameters:
     AVD_NAME = ""
     APP_DIR = ""
     APK_FILE_NAME = ""
+    MONKEY_LOG = ""
 
