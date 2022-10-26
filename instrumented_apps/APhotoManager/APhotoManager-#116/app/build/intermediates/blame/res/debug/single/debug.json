@@ -1,0 +1,514 @@
+[
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_menu_mylocation.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/ic_menu_mylocation.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_marker_blue.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/marker_blue.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_undo.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xhdpi/ic_action_undo.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_center.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/center.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_undo.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-hdpi/ic_action_undo.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_osm_ic_center_map.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxxhdpi-v4/osm_ic_center_map.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_osm_ic_ic_map_ortho.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxhdpi-v4/osm_ic_ic_map_ortho.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_osm_ic_follow_me_on.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxxhdpi-v4/osm_ic_follow_me_on.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_accept.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xxhdpi/ic_action_accept.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_bonuspack_bubble.9.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/bonuspack_bubble.9.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi_foto_gallery.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xhdpi/foto_gallery.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_cancel.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-hdpi/ic_action_cancel.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_map_context_locked.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_map_context_locked.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_holo_dark_folder.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-hdpi/ic_action_holo_dark_folder.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_osm_ic_center_map.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-hdpi-v4/osm_ic_center_map.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_tag.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xhdpi/ic_action_tag.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_osm_ic_follow_me_on.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xhdpi-v4/osm_ic_follow_me_on.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_grid_item_gallery.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/grid_item_gallery.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_gallery_pick_locked.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_gallery_pick_locked.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_action_search.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_grid_color_selector.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/grid_color_selector.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_undo.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xxhdpi/ic_action_undo.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_tag.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/ic_action_tag.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_osm_ic_follow_me_on.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-hdpi-v4/osm_ic_follow_me_on.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_marker_default_focused_base.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/marker_default_focused_base.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_list_item_directory_parent.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/list_item_directory_parent.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi_foto_gallery.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xxhdpi/foto_gallery.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_osm_ic_center_map.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxhdpi-v4/osm_ic_center_map.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_undo.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/ic_action_undo.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_fragment_directory.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/fragment_directory.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_context_datepicker.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_context_datepicker.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_osm_ic_follow_me.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxxhdpi-v4/osm_ic_follow_me.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_bookmark_contextl.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_bookmark_contextl.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_map_geo_picker.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_map_geo_picker.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_btn_search.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/ic_btn_search.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_media_db.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_media_db.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_gallery_non_multiselect.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_gallery_non_multiselect.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_exif_edit.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/exif_edit.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_accept.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-hdpi/ic_action_accept.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_zoom_in.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/zoom_in.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout-sw600dp_fragment_directory.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout-sw600dp/fragment_directory.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_holo_dark_folder.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xxhdpi/ic_action_holo_dark_folder.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_moreinfo_arrow_pressed.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/moreinfo_arrow_pressed.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi_exif_edit.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xhdpi/exif_edit.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_gallery_pick.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_gallery_pick.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_cancel.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/ic_action_cancel.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_image_loading.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/image_loading.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_dir_choose.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_dir_choose.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_list_item_directory_child.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/list_item_directory_child.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout-sw600dp_activity_gallery.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout-sw600dp/activity_gallery.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_osm_ic_follow_me.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xhdpi-v4/osm_ic_follow_me.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_image_commands.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_image_commands.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_accept.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/ic_action_accept.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_osm_ic_follow_me_on.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-mdpi-v4/osm_ic_follow_me_on.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_gallery_non_selected_only.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_gallery_non_selected_only.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_tags_context.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_tags_context.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_image_detail.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_image_detail.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_zoom_out.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/zoom_out.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_next.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/next.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_dialog_edit_name.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/dialog_edit_name.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_menu_mapmode.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/ic_menu_mapmode.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_moreinfo_arrow.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/moreinfo_arrow.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_btn_moreinfo.xml.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/btn_moreinfo.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_tag.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/tag.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_dialog_tag_delete.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/dialog_tag_delete.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi_foto_gallery.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-hdpi/foto_gallery.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_autoprocessing.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_autoprocessing.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_menu_offline.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/ic_menu_offline.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_foto_map.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/ic_foto_map.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout-sw600dp_fragment_location_map.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout-sw600dp/fragment_location_map.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_gallery_multiselect_mode_all.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_gallery_multiselect_mode_all.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_map_context.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_map_context.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_bonuspack_bubble.xml.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/layout/bonuspack_bubble.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_direction_arrow.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/direction_arrow.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_dialog_scanner_status.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/dialog_scanner_status.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_photo_workflow_edit.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_photo_workflow_edit.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_image_detail_locked.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_image_detail_locked.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_dialog_tag_rename.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/dialog_tag_rename.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_marker_red.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/marker_red.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_osm_ic_follow_me.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxhdpi-v4/osm_ic_follow_me.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_fragment_gallery.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_btn_search_blue.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/ic_btn_search_blue.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_holo_dark_folder.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xhdpi/ic_action_holo_dark_folder.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_cancel.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xhdpi/ic_action_cancel.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi_exif_edit.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xxhdpi/exif_edit.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_osm_ic_center_map.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xhdpi-v4/osm_ic_center_map.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_previous.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/previous.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_context_dirpicker.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_context_dirpicker.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi_exif_edit.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-hdpi/exif_edit.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_fragment_tags.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/fragment_tags.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_renamer_context.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_renamer_context.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_person.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/person.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_marker_green.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/marker_green.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_gallery_filter.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_gallery_filter.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_dialog_about.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/dialog_about.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_fragment_location_map.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/fragment_location_map.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_gallery_locked.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_gallery_locked.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_geo_edit.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable/ic_geo_edit.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_exif_edit.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_exif_edit.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_marker_default.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/marker_default.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_map_geo_picker.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_map_geo_picker.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_navto_small.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/navto_small.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_foto_gallery.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/foto_gallery.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_tag.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-hdpi/ic_action_tag.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_osm_ic_follow_me.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-hdpi-v4/osm_ic_follow_me.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_holo_dark_folder.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-mdpi/ic_action_holo_dark_folder.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_osm_ic_ic_map_ortho.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xhdpi-v4/osm_ic_ic_map_ortho.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_osm_ic_ic_map_ortho.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-mdpi-v4/osm_ic_ic_map_ortho.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_osm_ic_center_map.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-mdpi-v4/osm_ic_center_map.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_osm_ic_follow_me_on.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxhdpi-v4/osm_ic_follow_me_on.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_image_detail_text_context.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_image_detail_text_context.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_osm_ic_ic_map_ortho.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-xxxhdpi-v4/osm_ic_ic_map_ortho.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/xml_preferences.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_list_item_tag_search.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/list_item_tag_search.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable_ic_menu_compass.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable/ic_menu_compass.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_image_view_pager.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_image_view_pager.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_bookmark_context.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_bookmark_context.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_gallery_filter.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_gallery_filter.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_context_osdir.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_context_osdir.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_osm_ic_ic_map_ortho.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-hdpi-v4/osm_ic_ic_map_ortho.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_geo_edit.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_geo_edit.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_activity_gallery.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_osm_ic_follow_me.png.flat",
+        "source": "/Users/iverson3/.gradle/caches/transforms-1/files-1.1/osmdroid-android-6.0.1.aar/b580ec3bf6bce1d2b8983b576c5aa56b/res/drawable-mdpi-v4/osm_ic_follow_me.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/layout_pager_item_image.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/layout/pager_item_image.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_accept.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xhdpi/ic_action_accept.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/menu_menu_edit_common.xml.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/menu/menu_edit_common.xml"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_cancel.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xxhdpi/ic_action_cancel.png"
+    },
+    {
+        "merged": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_tag.png.flat",
+        "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/drawable-xxhdpi/ic_action_tag.png"
+    }
+]

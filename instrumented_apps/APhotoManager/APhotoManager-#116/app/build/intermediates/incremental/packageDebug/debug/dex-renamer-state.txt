@@ -1,0 +1,4 @@
+#Fri May 06 19:02:42 CST 2022
+base.0=/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-\#116/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

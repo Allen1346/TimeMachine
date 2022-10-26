@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_content_about"><![CDATA["
+  <h1>照片管理器</h1>&#39; 集成照片地圖功能 &#39; 在 &#39; AndroFotoFinder &#39;
+  <br />特點：
+  <ul>
+    <li>可以處理大量圖片 （超過1000 文件夾中的超過15000 張圖片）</li>
+    <li>使用 Android &#39; s 標準圖像服務，無需進行初始圖片掃描。</li>
+    <li style="list-style: none">通過
+    <ul>
+      <li>可通過文件夾、 文件名、 圖片主題、 圖片描述、 標簽(關鍵字) 與通配符
+      （0.6.0或更新版本）快速檢索圖片</li>
+      <li>文件夾 （與遞歸 
+      <a href="https://github.com/k3b/APhotoManager/wiki/Folder-Picker">文件夾選取器</a>）</li>
+      <li>通配符匹配文件夾/文件名</li>
+      <li>日期</li>
+      <li>包含/排除 標簽(關鍵字)支持通配符 （0.6.0或更新版本）</li>
+      <li>在
+      <a href="https://github.com/k3b/APhotoManager/wiki/geographic-map">地圖中使用圖片的地理信息</a>
+      （如果圖像有 GPS Exif 信息） 中的</li>
+    </ul>
+    <a href="https://github.com/k3b/APhotoManager/wiki/Filter-View">篩選圖片</a></li>
+    <li>
+    <a href="https://github.com/k3b/APhotoManager/wiki/Gallery-View">圖庫視圖支持滾動條</a> 與
+    <ul>
+      <li>支持多選照片</li>
+      <li>圖片文件復制、 移動、 刪除、 共享，設置地理信息，設置標簽</li>
+    </ul></li>
+    <li style="list-style: none; display: inline">
+    <a href="https://github.com/k3b/APhotoManager/wiki/Image-View">照片詳細信息視圖</a> 與
+    <ul>
+      <li>圖像縮放</li>
+      <li>滑動手勢切換下壹個/上壹個圖像</li>
+      <li>顯示擴展的圖像信息 （Exif、 IPTC、 XMP，ICC）</li>
+      <li>支持文件的復制、 移動、 刪除、 重命名，共享，設置地理信息，設置標簽等操作</li>
+    </ul></li>
+    <li>
+    <a href="https://github.com/k3b/APhotoManager/wiki/geographic-map">地理地圖</a> 顯示照片拍攝地</li>
+    <li style="list-style: none">對照片元數據 （Exif-地理信息，標簽(關鍵字)，路徑，文件名，...）</li>
+    <li>的修改可以在 
+    <a href="https://github.com/k3b/APhotoManager/wiki/sync">Android 和 MS Windows PC
+    之間同步</a>。（0.6.0或更新版本）</li>
+    <li>文件操作
+    <ul>
+      <li>同步更新 Android &#39; s 系統圖像服務數據庫</li>
+      <li>更新 xmp 附屬文件</li>
+    </ul></li>
+  </ul>
+  <br />
+"]]></string>
+    <string name="about_summary">關於“照片管理器%1$s”</string>
+    <string name="area_menu_title">地圖區域篩選</string>
+    <string name="background">背景</string>
+    <string name="bookmark_delete_answer_format">刪除書簽 %1$s。</string>
+    <string name="bookmark_delete_error_format">不能刪除書簽 %1$s。</string>
+    <string name="bookmark_delete_question">刪除此書簽嗎？</string>
+    <string name="bookmark_file_comment_format">
+使用\'%1$s\'（%2$s版）基於%3$s 生成。詳情參見https://github.com/k3b/APhotoManager/wiki/intentapi#sql
+</string>
+    <string name="bookmark_load_from_menu_title">加載書簽…</string>
+    <string name="bookmark_save_as_menu_title">書簽另存為...</string>
+    <string name="btn_change">變更</string>
+    <string name="btn_pause">暫停</string>
+    <string name="copy_result_format">已復制%1$d/%2$d 文件</string>
+    <string name="delete_menu_title">刪除</string>
+    <string name="delete_question_message_format">"是否確實要永久刪除這些文件？
+%1$s
+
+此操作無法撤銷。"</string>
+    <string name="delete_question_title">刪除照片？</string>
+    <string name="delete_result_format">已刪除%1$d/%2$d 文件</string>
+    <string name="destination_copy">復制目標位置</string>
+    <string name="destination_move">移動目標位置</string>
+    <string name="details_menu_title">詳情</string>
+    <string name="edit_chooser_title">選擇照片編輯器</string>
+    <string name="edit_err_editor_not_found">發現沒有照片編輯器</string>
+    <string name="edit_menu_title">編輯</string>
+    <string name="exif_menu_title">編輯 Exif</string>
+    <string name="file_err_writeprotected">\'%1$s\'. 寫保護。\n\n \'%2$s\' 無法完成操作。</string>
+    <string name="filter_any_hint">標簽、 標題、 描述或路徑的壹部分</string>
+    <string name="filter_err_invalid_date_format">\'%1$s\' 不是壹個有效的日期。</string>
+    <string name="filter_err_invalid_location_format">\'%1$s\' 不是壹個有效的坐標。</string>
+    <string name="filter_menu_title">篩選器</string>
+    <string name="filter_path_hint">部分目錄名或文件名。%= 通配符</string>
+    <string name="fix_link_menu_title">修復重復項</string>
+    <string name="folder_dialog_title_format">選擇 %1$s</string>
+    <string name="folder_err_load_failed_format">加載文件夾 %1$s 失敗</string>
+    <string name="folder_hide_images_menu_title">隱藏圖像</string>
+    <string name="folder_hide_images_question_message_format">"妳確定？
+
+妳想要使 
+
+%1$s 
+
+下面的所有媒體文件 （照片，視頻，音頻等），對系統多媒體庫、圖片應用和媒體文件掃描服務不可見？ 
+
+您可以撤消此隱藏操作，方法是在系統圖片應用菜單調用媒體文件掃描服務."</string>
+    <string name="folder_menu_title">文件夾篩選器</string>
+    <string name="full_description"><![CDATA["
+    管理本地照片: 查找/復制/編輯Exif信息並在圖庫或地圖上展示照片。     
+
+    功能特色:
+
+    * 快速查找照片的標簽 (關鍵詞)，(子) 文件夾， 日期， 位置， 標題，......
+    * 在圖庫或OpenStreetMap地圖上顯示結果
+    * 詳細視圖中縮放照片, 滑動切換下壹張/上壹張照片。
+    * 內置照片文件管理器: 查找， 排序， 查看， 復制， 刪除， 發送，......
+    * 編輯 EXIF 元數據：日期，標題，說明，標簽（關鍵詞），地理信息，評級，......
+    * 支持大型圖庫 (超過20000張圖片，超過1000個目錄)。
+    * 使用系統圖像服務，無需初始圖像文件掃描。
+    * 照片額外信息掃描，如EXIF、IPTC、XMP
+
+     所需的 Android 權限:
+     * 互聯網: 下載地圖數據
+     * 獲取網絡狀態 和獲取WI-FI狀態: 了解 WIFI/互聯網是否在線，以便下載地理信息數據
+     * 寫入外部存儲設備：在本地文件系統中緩存下載的地圖數據, 並讀寫照片文件
+     * 讀取日誌 讀取和保存可能的崩潰日誌。
+      .
+"]]></string>
+    <string name="gallery_title">照片</string>
+    <string name="geo_edit_menu_title">設定地點</string>
+    <string name="geo_edit_update_in_progress">更改所選照片中的地理信息</string>
+    <string name="geo_picker_err_not_found">未找到地理位置選取器</string>
+    <string name="geo_picker_from_map_title">從地圖中獲取地理信息</string>
+    <string name="geo_picker_from_photo_title">從地圖中獲取地理信息</string>
+    <string name="geo_picker_title">為照片選擇新地理位置</string>
+    <string name="geo_show_as_menu_title">在其他地圖應用中查看</string>
+    <string name="geo_show_menu_title">在地圖上顯示</string>
+    <string name="global_err_sql_message_format">SQL 錯誤 \'%1$s\' \n\n%2$s</string>
+    <string name="global_err_sql_title_reload">無效的 SQL。重新加載默認條件</string>
+    <string name="global_err_system">出現系統錯誤。退出</string>
+    <string name="image_err_file_exists_format">\'%1$s\' 文件已經存在.\n 確實要覆蓋它嗎？</string>
+    <string name="image_err_file_rename_format">無法重命名文件 \'%1$s\'。</string>
+    <string name="image_err_not_found_format">基於%1$s未找到照片。</string>
+    <string name="image_err_not_in_db_format">在媒體數據庫 %1$s 中未找到照片。正在掃描 %2$d 新文件。丟失的照片將很快出現。</string>
+    <string name="image_loading_at_position_format">"正在加載 (%1$d)..."</string>
+    <string name="image_success_update_format">已更新 %1$d 張照片。</string>
+    <string name="lbl_any">查找</string>
+    <string name="lbl_date">日期</string>
+    <string name="lbl_description">描述</string>
+    <string name="lbl_exif">EXIF</string>
+    <string name="lbl_file_name_pattern">檔案名模式</string>
+    <string name="lbl_images_private">私人圖片</string>
+    <string name="lbl_images_public">公開圖片</string>
+    <string name="lbl_latitude_short">緯度：</string>
+    <string name="lbl_longitude_short">經度</string>
+    <string name="lbl_path">路徑</string>
+    <string name="lbl_rating">評分</string>
+    <string name="lbl_tag">標簽</string>
+    <string name="lbl_tags_exclude">-標簽</string>
+    <string name="lbl_tags_include">+ 標簽</string>
+    <string name="lbl_title">標題</string>
+    <string name="lbl_with_no_geo">沒有地理信息</string>
+    <string name="lbl_with_no_tags">不含標簽</string>
+    <string name="mk_dir_default">新文件夾</string>
+    <string name="mk_dir_menu_title">創建文件夾</string>
+    <string name="mk_err_failed_format">無法創建 %1$s</string>
+    <string name="mk_success_format">已創建 %1$s</string>
+    <string name="more_menu_title">更多...</string>
+    <string name="move_menu_title">移動</string>
+    <string name="move_result_format">已移動%1$d/%2$d 個文件</string>
+    <string name="osm_cright_title">
+地圖背景 ©
+<a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>
+貢獻者
+</string>
+    <string name="overwrite_question_title">是否覆蓋?</string>
+    <string name="photo_autoprocessing_edit_menu_title">自動處理照片</string>
+    <string name="preview_message_format">"%1$s %2$d 照片\n\t%3$s (%4$s), …\n至%5$s\n\t%6$s"</string>
+    <string name="rename_menu_title">重命名</string>
+    <string name="rename_result_format">已重命名%1$d/%2$d 個文件</string>
+    <string name="scanner_dir_question">從何處開始掃描？</string>
+    <string name="scanner_err_busy">系統的媒體文件掃描服務正忙，無法處理照片文件。稍後再試。</string>
+    <string name="scanner_menu_title">媒體文件掃描服務</string>
+    <string name="scanner_update_result_format">已更新 %1$d 條媒體數據庫項</string>
+    <string name="selected_only_menu_title">僅選中的</string>
+    <string name="selection_add_all_menu_title">選擇： 添加所有可見文件</string>
+    <string name="selection_none_hint">選擇包含圖像的文件夾來激活“確定”按鈕</string>
+    <string name="selection_remove_menu_title">選擇： 刪除所有可見文件</string>
+    <string name="selection_status_format">選中了 %1$d 項</string>
+    <string name="settings_bookmark_dir_title">書簽文件夾</string>
+    <string name="settings_debug_clear_title">清除日誌信息</string>
+    <string name="settings_debug_libs_summary">… of 3rd party libraries.</string>
+    <string name="settings_debug_memory_title">日誌服務內存消耗</string>
+    <string name="settings_debug_meta_io">記錄 Jpg/Xmp文件元數據的讀/寫</string>
+    <string name="settings_debug_save_title">將日誌保存到文件</string>
+    <string name="settings_debug_sql_summary">...... 包含已執行 SQL查詢。</string>
+    <string name="settings_debug_summary">...... 包含其他日誌消息。</string>
+    <string name="settings_debug_title">日誌服務雜項</string>
+    <string name="settings_debug_view_item_summary">...... 包含 網格/列表視圖條目。</string>
+    <string name="settings_geo_history_file_title">設定地理信息保存文件</string>
+    <string name="settings_geo_history_max_title">圖片地理信息最多保存歷史數量</string>
+    <string name="settings_group_debug_title">診斷信息</string>
+    <string name="settings_image_hide_time_title">在若幹毫秒後自動隱藏操作欄</string>
+    <string name="settings_image_initialImageDetailResolutionHigh_summary">初始顯示時使用更佳圖像質量（較慢，占用更多內存）</string>
+    <string name="settings_image_initialImageDetailResolutionHigh_title">提高照片初始顯示質量</string>
+    <string name="settings_image_slideshow_intervall_title">幻燈片放映間隔毫秒數</string>
+    <string name="settings_image_thumb_dir_title">縮略圖保存文件夾</string>
+    <string name="settings_image_thumb_if_bigger_than_summary">
+如果圖像的寬度或高度大於此值 （像素），則在圖像詳細信息視圖中顯示縮略圖以便節省內存並提高速度，但圖像顯示質量較低。
+</string>
+    <string name="settings_image_thumb_if_bigger_than_title">使用縮略圖顯示大型圖像文件</string>
+    <string name="settings_locale_os_language">系統默認</string>
+    <string name="settings_locale_title">語言</string>
+    <string name="settings_log_folder_title">錯誤日誌文件夾</string>
+    <string name="settings_map_selmarker_max_title">地圖中最多同時選擇標記數量</string>
+    <string name="settings_maps_forge_dir_title">Mapsforge 離線文件夾</string>
+    <string name="settings_maps_forge_enable_summary">......，使用電腦手工下載的地圖</string>
+    <string name="settings_maps_forge_enable_tile">使用 Mapsforge 離線地圖</string>
+    <string name="settings_media_update_strategy_jpg">僅jpg文件</string>
+    <string name="settings_media_update_strategy_jpg_xmp_create">jpp與xmp文件（自動創建）</string>
+    <string name="settings_media_update_strategy_jpg_xmp_update">jpg (如果存在，同時更新xmp文件)</string>
+    <string name="settings_media_update_strategy_title">將更改寫入</string>
+    <string name="settings_media_update_strategy_xmp">僅xmp文件</string>
+    <string name="settings_multisel_clear_summary">復制、 移動、 重命名等。</string>
+    <string name="settings_multisel_clear_title">操作後清除多重選擇</string>
+    <string name="settings_title">設置</string>
+    <string name="settings_xmp_file_schema_summary">長文件名：文件名.jpg.xmp；短文件名：文件名.xmp</string>
+    <string name="settings_xmp_file_schema_title">Xmp附加文件使用長文件名？</string>
+    <string name="share_err_not_found">發現沒有共享/發送服務</string>
+    <string name="share_err_to_many">壹次選擇共享的項目太多</string>
+    <string name="share_menu_title">共享/發送</string>
+    <string name="short_description">管理本地照片：查找/復制/編輯EXIF信息並在圖庫或地圖上展示照片</string>
+    <string name="show_in_gallery_menu_title">在新圖庫中顯示</string>
+    <string name="show_photo">顯示照片</string>
+    <string name="slideshow_menu_title">播放幻燈片</string>
+    <string name="sort_by_date">日期</string>
+    <string name="sort_by_folder">目錄</string>
+    <string name="sort_by_modification">上次修改時間</string>
+    <string name="sort_by_name">名稱</string>
+    <string name="sort_by_name_len">文件路徑長度</string>
+    <string name="sort_by_none">未排序</string>
+    <string name="sort_by_place">位置</string>
+    <string name="sort_by_rating">評分</string>
+    <string name="sort_menu_title">排序</string>
+    <string name="tags_activity_title">標簽篩選器</string>
+    <string name="tags_add_default">新標簽</string>
+    <string name="tags_add_menu_title">創建新標簽</string>
+    <string name="tags_defaults">活動、人們、地點、主題、項目</string>
+    <string name="tags_delete_children_title">刪除子級</string>
+    <string name="tags_edit_menu_title">設置標簽</string>
+    <string name="tags_hint">在標簽名上長按打開菜單</string>
+    <string name="tags_search_hint">在此處輸入篩選條件......</string>
+    <string name="tags_search_no_matching_items_found">找不到匹配標簽</string>
+    <string name="tags_update_photos">更新受影響的照片中的標簽</string>
+    <string name="title">照片管理器</string>
+    <string name="update_result_format">已更新%1$d/%2$d 文件</string>
+    <string name="view_context_menu_title">加載上下文...</string>
+    <string name="zoom_to_fit_menu_title">縮放到適合大小</string>
+</resources>

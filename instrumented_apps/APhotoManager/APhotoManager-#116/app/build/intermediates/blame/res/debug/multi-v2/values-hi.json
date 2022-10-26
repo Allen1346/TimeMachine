@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml",
+            "map": [
+                {
+                    "source": "/Users/iverson3/Git/benchmark/APhotoManager/APhotoManager-#116/app/src/main/res/values-hi/strings.xml",
+                    "from": {
+                        "startLines": "24,25,28,27,23,26",
+                        "startColumns": "2,2,2,2,2,2",
+                        "startOffsets": "942,1005,1250,1174,873,1111",
+                        "endColumns": "62,105,73,75,68,62",
+                        "endOffsets": "1002,1108,1321,1247,939,1171"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,120,228,304,382,453",
+                        "endColumns": "64,107,75,77,70,64",
+                        "endOffsets": "115,223,299,377,448,513"
+                    }
+                }
+            ]
+        }
+    ]
+}
