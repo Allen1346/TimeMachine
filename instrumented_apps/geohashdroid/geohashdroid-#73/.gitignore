@@ -8,8 +8,6 @@ gen/
 .DS_Store
 .directory
 
-app/build/*
-
 .gradle
 /local.properties
 /.idea/workspace.xml
