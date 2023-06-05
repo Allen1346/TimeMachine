@@ -65,7 +65,7 @@ class Executor:
         mc = self.monkey_controller
         monkey_watcher = threading.Thread(target=mc.run_monkey, args=(app_name, 999999, 200))
         monkey_watcher.start()
-        print "+++++++++++++++++++++++++++++++++++++++ whether monkey_watcher isAlive:"+str(monkey_watcher.isAlive())
+        # print "+++++++++++++++++++++++++++++++++++++++ whether monkey_watcher isAlive:"+str(monkey_watcher.isAlive())
         return monkey_watcher
 
     def start_sys_event_generator(self):
@@ -111,34 +111,38 @@ class Executor:
                 print state
             print "******************************************* end *****************************************\n"
 
+            sys.stdout.flush()
+
             log_proc=state_monitor.get_monitor_proc(app_name)
 
             self.start_crash_watcher()
 
             monkey_watcher=self.start_monkey(app_name)
 
-            print "before start_exec"
-            print log_proc.poll() != None
-            print monkey_watcher.isAlive()
-            print monkey_watcher.ident
+            # print "before start_exec"
+            # print log_proc.poll() != None
+            # print monkey_watcher.isAlive()
+            # print monkey_watcher.ident
+
+            sys.stdout.flush()
 
             self.start_exec(log_proc, monkey_watcher, recent_path, recent_path_size, app_name, app_class_files_path)
-            print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end of start_exec\n"
+            # print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ end of start_exec\n"
 
             self.monkey_controller.kill_monkey()
 
-            print "after start_exec"
-            print log_proc.poll() != None
-            print monkey_watcher.isAlive()
-            print monkey_watcher.ident
+            # print "after start_exec"
+            # print log_proc.poll() != None
+            # print monkey_watcher.isAlive()
+            # print monkey_watcher.ident
 
             while (monkey_watcher.isAlive()):
-                print "+++++++++++++++++++++++++++++ sleep for the monkey_watcher is still alive..."
+                # print "+++++++++++++++++++++++++++++ sleep for the monkey_watcher is still alive..."
                 time.sleep(3)
 
-            print log_proc.poll() != None
-            print monkey_watcher.isAlive()
-            print monkey_watcher.ident
+            # print log_proc.poll() != None
+            # print monkey_watcher.isAlive()
+            # print monkey_watcher.ident
 
             coverage_manager.pull_coverage_files(self.num_restore, app_name, app_class_files_path,
                                                  RunParameters.AVD_SERIAL)
@@ -170,10 +174,10 @@ class Executor:
 
 
     def start_exec(self, log_proc, monkey_watcher, recent_path, recent_path_size, app_package_name, app_class_files_path):
-        print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ new start for start_exec\n"
+        # print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ new start for start_exec\n"
 
-        print log_proc.poll() != None
-        print monkey_watcher.isAlive()
+        # print log_proc.poll() != None
+        # print monkey_watcher.isAlive()
         
         current_coverage = coverage_manager.read_current_coverage()
         event_num=0    
@@ -184,18 +188,18 @@ class Executor:
         while True:
             line=""
             if log_proc.poll() != None or not monkey_watcher.isAlive():
-                print log_proc.poll() != None
-                print monkey_watcher.isAlive()
-                print monkey_watcher.ident
+                # print log_proc.poll() != None
+                # print monkey_watcher.isAlive()
+                # print monkey_watcher.ident
                 print "no app info in logs ---"
-                print "+++++++++++++++++++++++++++++++++++++ break start_exec because of log_proc.poll() != None or not monkey_watcher.isAlive()\n"
+                # print "+++++++++++++++++++++++++++++++++++++ break start_exec because of log_proc.poll() != None or not monkey_watcher.isAlive()\n"
 
                 break
             
             try:
                 if log_watcher.poll(1):
                    line=log_proc.stdout.readline()
-                   print "+++++++++++++++line:"+line
+                   # print "+++++++++++++++line:"+line
                 else:
                    continue
             except select.error:
@@ -217,18 +221,18 @@ class Executor:
             #case where events do not trigger state transition
             if id == self.state_id_being_fuzzed:
 
-                print "+++++++++++++++++++++++++++++++++++++ case where events do not trigger state transition\n"
+                # print "+++++++++++++++++++++++++++++++++++++ case where events do not trigger state transition\n"
                 event_num=event_num+1
                 print "--event num: " + str(event_num)
                 if event_num > 200:
-                    print "+++++++++++++++++++++++++++++++++++++ event num over 200, penalize the state\n"
+                    # print "+++++++++++++++++++++++++++++++++++++ event num over 200, penalize the state\n"
                     #penalize the state
                     state_being_fuzzed = self.state_graph.retrieve(self.state_id_being_fuzzed)
                     if state_being_fuzzed is not None:
                         state_being_fuzzed.add_transition_to_existing_state()
                     #clear observed states
                     recent_path.clear()
-                    print "+++++++++++++++++++++++++++++++++++++ break start_exec because of event_num\n"
+                    # print "+++++++++++++++++++++++++++++++++++++ break start_exec because of event_num\n"
                     break
 
                 #bring app under test to front
@@ -238,21 +242,21 @@ class Executor:
             
             #case where events trigger state transition
             else:
-                print "+++++++++++++++++++++++++++++++++++++ case where events trigger state transition\n"
+                # print "+++++++++++++++++++++++++++++++++++++ case where events trigger state transition\n"
 
                 print "--transiton occurs"
 
                 if self.state_graph.is_exist(id):
-                    print "+++++++++++++++++++++++++++++++++++++ triggered state transition has been discovered before\n"
+                    # print "+++++++++++++++++++++++++++++++++++++ triggered state transition has been discovered before\n"
 
                     print "--the state " + str(id) +"  exists"
                     self.state_graph.add_edge(self.state_id_being_fuzzed, id)
 
-                    print "+++++++++++++++++++++++++++++++++++++ penalize its parent\n"
+                    # print "+++++++++++++++++++++++++++++++++++++ penalize its parent\n"
                     parent = self.state_graph.retrieve(self.state_id_being_fuzzed)
                     parent.add_transition_to_existing_state()
                 else:
-                    print "+++++++++++++++++++++++++++++++++++++ new state has been discovered \n"
+                    # print "+++++++++++++++++++++++++++++++++++++ new state has been discovered \n"
 
                     print "--a new state is triggered and add " + str(id) + " into the state graph."
 
@@ -260,7 +264,7 @@ class Executor:
                     self.state_graph.add_edge(self.state_id_being_fuzzed, id)
 
                     #rewarding
-                    print "+++++++++++++++++++++++++++++++++++++ judge the coverage info to decide whether reward its parent or not\n"
+                    # print "+++++++++++++++++++++++++++++++++++++ judge the coverage info to decide whether reward its parent or not\n"
 
                     parent = self.state_graph.retrieve(self.state_id_being_fuzzed)
                     child = self.state_graph.retrieve(id)
@@ -301,14 +305,15 @@ class Executor:
                 #print(self.state_graph.dump())
 
                 if len(recent_path) == recent_path_size and self.state_graph.compute_frequent_node_portion(list(recent_path), 0.2) >= 0.8:
-                    print "+++++++++++++++++++++++++++++++++++++++++ len(recent_path) == recent_path_size and self.state_graph.compute_frequent_node_portion(list(recent_path), 0.2) >= 0.8"
+                    # print "+++++++++++++++++++++++++++++++++++++++++ len(recent_path) == recent_path_size and self.state_graph.compute_frequent_node_portion(list(recent_path), 0.2) >= 0.8"
 
                     recent_path.clear()
                     # is this sentence needed???
                     # self.num_restore = self.num_restore +1
 
-                    print "+++++++++++++++++++++++++++++++++++++ break start_exec because of len(recent_path) == recent_path_size and self.state_graph.compute_frequent_node_portion(list(recent_path), 0.2) >= 0.8\n"
+                    # print "+++++++++++++++++++++++++++++++++++++ break start_exec because of len(recent_path) == recent_path_size and self.state_graph.compute_frequent_node_portion(list(recent_path), 0.2) >= 0.8\n"
                     break
+            sys.stdout.flush()
 
     def bring_app_to_front(self,pkg_name):
 

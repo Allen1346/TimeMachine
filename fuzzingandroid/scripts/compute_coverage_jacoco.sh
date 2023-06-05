@@ -6,7 +6,7 @@ OUTPUT_DIR=$2
 
 EC_DIR=$OUTPUT_DIR/ec_files
 
-JACOCO_PATH=`realpath ../../libs/jacococli.jar`
+JACOCO_PATH=`grealpath ../../libs/jacococli.jar`
 
 
 #~/fuzzingandroid/scripts/pull_coverage.sh coverage_temp

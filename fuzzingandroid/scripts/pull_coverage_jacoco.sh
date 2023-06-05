@@ -8,7 +8,7 @@ OUTPUT_DIR=$5
 
 EC_DIR=$OUTPUT_DIR/ec_files
 
-JACOCO_PATH=`realpath ../../libs/jacococli.jar`
+JACOCO_PATH=`grealpath ../../libs/jacococli.jar`
 
 # Note: jacoco does not know the "~" symbol in file path, so just use the absolute path
 #CLASS_FILES=/root/fuzzingandroid/apps/tasks/app/build/intermediates/javac/amazonDebug/classes/

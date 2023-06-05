@@ -24,7 +24,7 @@ AVD_PORT=${AVD_SERIAL:9:13}
 # wait for the target device
 function wait_for_device(){
     avd_serial=$1
-    timeout 5s adb -s $avd_serial wait-for-device
+    gtimeout 5s adb -s $avd_serial wait-for-device
     OUT=`adb -s $avd_serial shell getprop init.svc.bootanim`
     i=0
     while [[ ${OUT:0:7}  != 'stopped' ]]; do
@@ -81,9 +81,9 @@ adb -s ${AVD_SERIAL} root
 
 current_date_time="`date "+%Y-%m-%d-%H-%M-%S"`"
 apk_file_name=`basename $APK_FILE`
-apk_file_path=`realpath $APK_FILE`
+apk_file_path=`grealpath $APK_FILE`
 apk_dir_path=`dirname $apk_file_path`
-result_dir=`realpath $OUTPUT_DIR/$apk_file_name.timemachine.result.$AVD_SERIAL\#$current_date_time`
+result_dir=`grealpath $OUTPUT_DIR/$apk_file_name.timemachine.result.$AVD_SERIAL\#$current_date_time`
 mkdir -p $result_dir
 echo "** CREATING RESULT DIR (${AVD_SERIAL}): " $result_dir
 
@@ -97,7 +97,7 @@ echo "** RUN TIMEMACHINE "
 echo "`date "+%Y-%m-%d-%H:%M:%S"`" >> $result_dir/timemachine_testing_time.txt
 cmd="./start_engine.sh $apk_dir_path $TEST_TIME $result_dir $apk_file_path $AVD_SERIAL $AVD_PORT $AVD_NAME"
 echo $cmd
-timeout 12h ./start_engine.sh $apk_dir_path $TEST_TIME $result_dir $apk_file_path $AVD_SERIAL $AVD_PORT $AVD_NAME
+gtimeout 12h ./start_engine.sh $apk_dir_path $TEST_TIME $result_dir $apk_file_path $AVD_SERIAL $AVD_PORT $AVD_NAME
 echo "`date "+%Y-%m-%d-%H:%M:%S"`" >> $result_dir/timemachine_testing_time.txt
 
 sleep 5

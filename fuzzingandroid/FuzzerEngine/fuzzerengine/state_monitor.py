@@ -16,7 +16,7 @@ def get_monitor(pkg_name):
 
         p = subprocess.Popen(cmd.split(), stdout=subprocess.PIPE, universal_newlines=True)
         line = p.stdout.readline()
-        print "+++++++++++++ " + line
+        # print "+++++++++++++ " + line
 
         return p
 

@@ -1,5 +1,6 @@
 import os
 import subprocess
+import sys
 
 from config_fuzzer import RunParameters
 
@@ -36,13 +37,15 @@ class MonkeyController:
             if not line.lstrip().startswith("/"):
                 self.output.append(line)
 
-            str = p.poll()
-            if line == '' and str != None:
+            st = p.poll()
+            if line == '' and st != None:
                 print "break monkey due to line == '' and p.poll() != None"
                 print "line:"+line
-                print str
+                print st
                 print('--monkey watcher is terminated!')
                 break
+
+            sys.stdout.flush()
 
      # kill monkey
     def kill_monkey(self):

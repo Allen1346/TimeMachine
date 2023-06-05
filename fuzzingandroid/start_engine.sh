@@ -23,7 +23,7 @@ wait_adb(){
     do
         echo 'adb not connected!'
         adb -s $AVD_SERIAL devices > /dev/null 2>&1
-        ! timeout 3 adb -s $AVD_SERIAL wait-for-device shell exit 0 > /dev/null 2>&1 || break
+        ! gtimeout 3 adb -s $AVD_SERIAL wait-for-device shell exit 0 > /dev/null 2>&1 || break
     done 
     
     adb -s $AVD_SERIAL wait-for-device
@@ -84,4 +84,4 @@ OUTPUT_LOG_PATH=$OUTPUT_DIR/timemachine-run.log
 echo "bash executed successfully! start engine now ..."
 cd FuzzerEngine/fuzzerengine
 echo "python2.7 executor.py $APP_DIR $APP_PKG $APK_FILE_NAME $TIMEOUT $OUTPUT_DIR $AVD_SERIAL $AVD_PORT $AVD_NAME | tee -a $OUTPUT_LOG_PATH"
-python2.7 executor.py $APP_DIR $APP_PKG $APK_FILE_NAME $TIMEOUT $OUTPUT_DIR $AVD_SERIAL $AVD_PORT $AVD_NAME | tee -a $OUTPUT_LOG_PATH
+/opt/anaconda3/envs/python2/bin/python2.7 executor.py $APP_DIR $APP_PKG $APK_FILE_NAME $TIMEOUT $OUTPUT_DIR $AVD_SERIAL $AVD_PORT $AVD_NAME | tee -a $OUTPUT_LOG_PATH
